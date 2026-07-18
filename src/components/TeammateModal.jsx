@@ -14,6 +14,7 @@ import { playClick } from '../utils/audio';
 export default function TeammateModal({ teammate, isOpen, onClose }) {
   const [copied, setCopied] = useState(false);
   const [animateProgress, setAnimateProgress] = useState(false);
+  const [imgError, setImgError] = useState(false);
 
   // Trigger ESC click listener for modal removal
   useEffect(() => {
@@ -46,8 +47,6 @@ export default function TeammateModal({ teammate, isOpen, onClose }) {
   const initials = name
     ? name.split(' ').map((n) => n[0]).join('')
     : 'N';
-
-  const [imgError, setImgError] = useState(false);
 
   const handleClose = () => {
     playClick();

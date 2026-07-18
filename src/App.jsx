@@ -39,7 +39,7 @@ const DEFAULT_MEMBERS = [
     email: "aadil.s@nocturna.io",
     linkedin: "https://linkedin.com/in/aadil-s",
     quote: "The interface is the canvas where science meets aesthetic design.",
-    image: ""
+    image: "images/aadil.jpeg"
   },
   {
     id: "arvin_abraham",
@@ -94,7 +94,7 @@ const DEFAULT_MEMBERS = [
     email: "adil.suhail@nocturna.io",
     linkedin: "https://linkedin.com/in/adil-suhail",
     quote: "Zero downtime is my language. High performance is my signature.",
-    image: ""
+    image: "images/adil.jpeg"
   }
 ];
 
